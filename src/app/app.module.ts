@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CrudoperationComponent } from './component/crudoperation/crudoperation.component';
+import { GetdataComponent } from './component/getdata/getdata.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CrudoperationComponent
+    CrudoperationComponent,
+    GetdataComponent
   ],
   imports: [
     BrowserModule,

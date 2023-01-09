@@ -1,0 +1,36 @@
+<section>
+    <div class="container">
+        <ul class="list-group">
+            <li 
+                *ngFor="let post of posts"
+                class="list-group-item">
+                {{ post.title }}
+            </li>
+          </ul>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th>Id</th>
+                      <th>Name</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let post of posts">
+                    <td>{{ post.id }}</td>
+                    <td>{{ post.name }}</td>
+                    <td>{{ post.username }}</td>
+                    <td>{{ post.email }}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</section>
