@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1673268788002,
+      "title": "Some Todo"
+    },
+    {
+      "id": 1673268834483,
+      "title": "Some Todo"
+    },
+    {
+      "id": 1673268837026,
+      "title": "Some Todo"
+    },
+    {
+      "id": 1673268890098,
+      "title": "Some Todo"
+    },
+    {
+      "id": 1673268891194,
+      "title": "Some Todo"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
